@@ -14,3 +14,5 @@ Install Django in the virtual environment
 ### pip install Django
 Go to the root directory of the project and run the server 
 ### python manage.py runserver 9000
+
+ ### {[url:http://127.0.0.1:9000}}
