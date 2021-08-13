@@ -2,7 +2,7 @@
 It's a small glance on my life for you!!
 
 #Home page
-<img src ="https://github.com/Abhimanue28/Personal_Blog/blob/2a859118b2ee2ea4ec637754b6a3087dec5b018e/pic.PNG"
+<img src ="https://github.com/Abhimanue28/Personal_Blog/blob/main/pic.PNG"
     
 ## Instructions
 Clone the project.
