@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{%load static %}
+
+
+{%block title %}
+Personal blog
+{% endblock %}
+
+{%block css_files %}
+        <link rel="stylesheet" href="{% static 'blog/post.css' %}">
+
+    <link rel="stylesheet" href="{% static 'blog/index.css' %}">
+{% endblock %}
+
+{%block content %}
+
+    <section id="welcome">
+         <header>
+            <img src="{% static 'blog/images/abhimanue.jpeg' %}" alt="MP -Your friend">
+            <h2> MP's blog</h2>
+        </header>
+     <p>Hey, I am your friend and let me introduce myself </p>
+    </section>
+
+    <section id="latest-posts">
+     <h2>My way of this beautiful world </h2>
+
+     <ul>
+        {%for post in posts%}
+            {% include "blog/includes/post.html"  %}
+        {% endfor %}
+     </ul>  
+
+    </section>
+
+    <section id="about">
+        <h2>How i waste my time</h2>
+        <p>I like to program, I keep myself secondary when i find someone in need and I like too be techy sometimes.</p>
+        <p>My goal is simple ,Let me go through my hardship and believe in myself till i make it !</p>
+
+    </section>
+             
+
+
+{% endblock %}
+
